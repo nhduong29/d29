@@ -1,0 +1,24 @@
+title:              D29.
+email:              nhduong29@gmail.com
+description:        A small step to do
+author:             nhduong29
+baseurl:            ""
+url:                "https://github.com/nhduong29"
+
+# Social Profiles
+twitter_username:   nhduong29
+github_username:    nhduong29
+facebook_username:  nhduong29
+linkedin_username:  nhduong29
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
