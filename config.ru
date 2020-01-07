@@ -1,6 +1,3 @@
-config.rurequire_relative "../lib/rack/jekyll"
-
-# Middleware
-use Rack::ShowExceptions  # Nice looking errors
+require "rack/jekyll"
 
 run Rack::Jekyll.new
